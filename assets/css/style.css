@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0; }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #F7B617;
+  font-family: 3rem Roboto, sans-serif;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */

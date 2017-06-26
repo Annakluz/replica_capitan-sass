@@ -1,0 +1,45 @@
+$container-background: #F7B617;
+$container-width100: 1fr;
+$container-color: white;
+$container-display: grid;
+$paragraph-font: 2rem Roboto, sans-serif;
+$grey-container: #3E3F40;
+$title-font: 3rem Roboto, sans-serif;
+
+@mixin line ($padd){
+    padding: .5rem;
+    text-align: right;
+}
+
+
+html{
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+    margin: 0;
+   
+}
+
+
+
+header{
+    display: $container-display;
+    grid-template-columns: $container-width100;
+    background-color: $container-background;
+    font-family: $title-font;
+    color:white;
+    
+    
+}
+
+
+
+
+
+
+
