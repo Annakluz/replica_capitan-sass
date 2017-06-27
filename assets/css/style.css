@@ -11,7 +11,23 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #F7B617;
-  font-family: 3rem Roboto, sans-serif;
-  color: white; }
+  font: 3rem Roboto, sans-serif;
+  grid-template-rows: 10vh;
+  align-items: center;
+  color: white;
+  padding-left: 3vw; }
+
+.general-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; }
+  .general-container .aside-left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: #3E3F40; }
+    .general-container .aside-left .list-title {
+      color: white;
+      list-style: none;
+      font: 2rem Roboto, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

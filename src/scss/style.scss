@@ -1,10 +1,13 @@
 $container-background: #F7B617;
 $container-width100: 1fr;
+$container-row: 10vh;
 $container-color: white;
 $container-display: grid;
 $paragraph-font: 2rem Roboto, sans-serif;
 $grey-container: #3E3F40;
 $title-font: 3rem Roboto, sans-serif;
+$padding-left: 3vw;
+$general-display: 1fr 2fr 1fr;
 
 @mixin line ($padd){
     padding: .5rem;
@@ -31,9 +34,30 @@ header{
     display: $container-display;
     grid-template-columns: $container-width100;
     background-color: $container-background;
-    font-family: $title-font;
-    color:white;
+    font: $title-font;
+    grid-template-rows: $container-row;
+    align-items: center;
+    color:$container-color;
+    padding-left: $padding-left;
     
+    
+}
+
+.general-container{
+    display:$container-display;
+    grid-template-columns: $general-display;
+    .aside-left{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        background-color: $grey-container;
+        .list-title{
+            color:white;
+            list-style: none;
+            font: $paragraph-font;
+        }
+       
+    }
     
 }
 
