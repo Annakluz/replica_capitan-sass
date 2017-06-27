@@ -1,16 +1,5 @@
-$container-background: #F7B617;
-$container-width100: 1fr;
-$container-row: 10vh;
-$container-color: white;
-$container-display: grid;
-$paragraph-font: 1rem Roboto,
+@import "variables";
 
-sans-serif;
-$grey-container: #3E3F40;
-$title-font: 2rem Roboto,
-sans-serif;
-$padding-left: 3vw;
-$general-display: 1fr 2fr 1fr;
 @mixin line ($padd) {
     padding: .5rem;
     text-align: right;
